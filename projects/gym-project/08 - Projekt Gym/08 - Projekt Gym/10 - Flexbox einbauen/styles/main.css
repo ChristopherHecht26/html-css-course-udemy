@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(100, 100, 100);
+
+    background-image: 
+        linear-gradient(90deg, rgb(226,29,60) 40%, rgba(0, 0, 0, 0.5) 40%, transparent 45%),
+        url("../images/waves-cropped.svg"),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
+        url("../images/pexels-cesar-galeao-3289711-gray.jpg");
+
+    background-repeat: 
+        no-repeat,
+        no-repeat,
+        no-repeat,
+        no-repeat;
+
+    background-size: 
+        100% 100%,
+        40% auto,
+        100% 100%,
+        60% auto;
+
+    background-position: 
+        50% 50%,
+        100% 100%,
+        50% 50%,
+        100% 25%;
+}
+
+.page {
+    display: flex;
+}
+
+.main-content {
+    width: 40%;
+}
+
+.countdown {
+    width: 60%;
+}
+
+.logo {
+    width: 275px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.main-offer {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 65px;
+    margin-right: 15px;
+}
+
+.main-heading {
+    margin: 0;
+    letter-spacing: 0.05em;
+    font-style: italic;
+    font-size: 28px;
+    font-weight: normal;
+    color: white;
+}
+
+.main-heading > strong {
+    text-transform: uppercase;
+}
+
+.main-offer-price {
+    display: block;
+    font-size: 120px;
+    margin-top: 18px;
+}
+
+.join-today {
+    display: inline-block;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    border-radius: 99999px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 50px;
+    margin-top: 40px;
+}
+
+.join-today:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+.footer-paragraph {
+    margin: 75px 0 0 15px;
+    color: black;
+}
+
+.countdown-heading {
+    margin: 250px 0 0 0;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-weight: normal;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.countdown-paragraph {
+    margin: 0;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 58px;
+}

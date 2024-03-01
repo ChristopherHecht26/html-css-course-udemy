@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {    
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(100, 100, 100);
+
+    background-image: 
+        linear-gradient(90deg, rgb(226,29,60) 40%, rgba(0, 0, 0, 0.5) 40%, transparent 45%),
+        url("../images/waves-cropped.svg"),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
+        url("../images/pexels-cesar-galeao-3289711-gray.jpg");
+
+    background-repeat: 
+        no-repeat,
+        no-repeat,
+        no-repeat,
+        no-repeat;
+
+    background-size: 
+        100% 100%,
+        40% auto,
+        100% 100%,
+        60% auto;
+
+    background-position: 
+        50% 50%,
+        100% 100%,
+        50% 50%,
+        100% 25%;
+}
+
+.main-content {
+    width: 40%;
+}
+
+.logo {
+    width: 275px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.main-offer {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.main-heading {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-size: 36px;
+    font-weight: normal;
+    color: white;
+}
+
+.main-heading > strong {
+    text-transform: uppercase;
+}
+
+.main-offer-price {
+    font-size: 72px;
+}
